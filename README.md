@@ -1,6 +1,7 @@
 #  Transformer NMT ablation
 
 TL;DR Transformer NMT can function without Encoder layers, and can generate decent quality outputs.
+These experiments and analyses were conducted to support an argument made in my dissertation.
 
 
 | Number of Layers |         | DE-EN BLEU |      | EN-HI BLEU |      | DE-EN MacroF1 |      | EN-HI MacroF1 |      |
@@ -17,6 +18,11 @@ TL;DR Transformer NMT can function without Encoder layers, and can generate dece
 | 3                | 1       | 35.9       | 31.5 | 14.4       | 14.8 | 41.2          | 38.3 | 24.4          | 19.2 |
 | 0                | 12      |            |      | 13.2       | 14.2 |               |      | 24            | 19.7 |
 
+
+
+# Chart
+
+![tfm-ablation.png](tfm-ablation.png)
 
 
 
